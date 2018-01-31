@@ -1,25 +1,15 @@
 {
-  "name": "test",
+  "name": "unit",
   "version": "1.0.0",
-  "description": "- Mocha - Chai - Travis",
-  "main": "index.js",
+  "description": "",
+  "main": "math.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.js"
   },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ferryal/hello-test.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ferryal/hello-test/issues"
-  },
-  "homepage": "https://github.com/ferryal/hello-test#readme",
-  "dependencies": {
-    "chai": "^4.1.2"
-  },
+  "author": "M Haidar Hanif <npm@mhaidarhanif.com> (https://mhaidarhanif.com)",
+  "license": "MIT",
   "devDependencies": {
-    "mocha": "^5.0.0"
+    "chai": "4.1.2",
+    "mocha": "4.0.1"
   }
 }
